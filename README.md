@@ -29,3 +29,23 @@ The overall variance for the entire dataset indicates that the current manufactu
 <img src="https://github.com/ChicletKeyboard/MechaCar_Statistical_Analysis/blob/4e0f473cb4b9b3764f14faad423e26fce31e866f/Resources/t-test.PNG">
 </p>
 At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 0.06. Therefore, we cannot reject the fact that the sample mean may be equivalent to the true population mean. Another feature to note is the narrow confidence interval. Although a narrower confidence interval implies that there is a smaller chance of obtaining an observation within that interval, it provides greater accuracy than a wider interval.
+
+## T-Test on Suspension Coils
+### T-Test on Entire Lot
+<p align="center">
+<img src="https://github.com/ChicletKeyboard/MechaCar_Statistical_Analysis/blob/4e0f473cb4b9b3764f14faad423e26fce31e866f/Resources/t-test.PNG">
+</p>
+At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 0.06. Therefore, we cannot reject the fact that the sample mean may be equivalent to the true population mean. Another feature to note is the narrow confidence interval. Although a narrower confidence interval implies that there is a smaller chance of obtaining an observation within that interval, it provides greater accuracy than a wider interval.
+
+### T-Test on Three Smaller Lots
+<p align="center">
+<img src="https://github.com/ChicletKeyboard/MechaCar_Statistical_Analysis/blob/2288528f6a3cb90ddc3fda03f668e69a574a4480/Resources/lots_t_test.PNG">
+</p>
+#### Lot 1
+At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 1. A correlation between p-value and confidence intervals is that as p-values get larger, the confidence interval becomes smaller, implying more precision in predicting the true population mean.
+
+#### Lot 2
+At a significance level of 0.05, we fail to reject the null hypthesis again since the p-value equals 0.6072. The second lot also has a relatively small confidence interval.
+
+#### Lot 3
+At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168. The mean of this sample is also significantly smaller in comparison to the previous two lots. More importantly, unlike the previous two lots, the confidence interval for the third lot does not include the predicted population mean.
