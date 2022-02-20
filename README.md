@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-Using R to analyze and create data visualizations of vehicle performance from datasets. 
+Using R to analyze and create data visualizations of MechaCar vehicle performance from datasets. 
 
 ## Linear Regression to Predict MPG
 ![Linear Regression](https://github.com/ChicletKeyboard/MechaCar_Statistical_Analysis/blob/090a2adc304d0392868fb0153926c2f7c5eb5d6b/Resources/linear_regression.PNG)
@@ -49,3 +49,12 @@ At a significance level of 0.05, we fail to reject the null hypthesis again sinc
 
 #### Lot 3
 At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168. The mean of this sample is also significantly smaller in comparison to the previous two lots. More importantly, unlike the previous two lots, the confidence interval for the third lot does not include the predicted population mean.
+
+## Study Design: MechaCar vs. Competition
+Another statistical study that can be performed to determine MechaCar's standing against its competition is a linear regression on city and highway fuel efficiency. Gasoline prices have risen over time, and it is an important feature that many consumers look at when purchasing a new car. The metrics that can be included in this analysis are:
+* City and highway fuel efficiency: dependent variable
+* Horse power: independent variable
+* Vehicle weight: independent variable
+* AWD capabilities: independent variable
+* MPG: independent variable
+In addition to the MPG, AWD, and vehicle weight data that we already have, we would have to collect fuel efficiency and horse power data for the sample data set at hand.
